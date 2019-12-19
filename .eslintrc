@@ -1,0 +1,35 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "mocha": true
+  },
+  "plugins": [
+    "fp"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018
+  },
+  "settings": {},
+  "rules": {
+    "linebreak-style": ["error", "unix"],
+    "max-lines": ["warn", {"max": 200}],
+    "max-lines-per-function": ["warn", {"max": 20}],
+    "complexity": ["warn", 5],
+    "max-nested-callbacks": ["warn", 2],
+    "max-depth": ["warn", 3],
+    "fp/no-mutation": "warn",
+    "fp/no-mutating-assign": "warn",
+    "fp/no-mutating-methods": "warn",
+    "no-param-reassign": "warn",
+    "fp/no-let": "warn",
+    "max-params": ["warn", 2]
+  }
+}
