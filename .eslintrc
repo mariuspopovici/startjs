@@ -19,7 +19,6 @@
   },
   "settings": {},
   "rules": {
-    "linebreak-style": ["error", "unix"],
     "max-lines": ["warn", {"max": 200}],
     "max-lines-per-function": ["warn", {"max": 20}],
     "complexity": ["warn", 5],

@@ -2,5 +2,6 @@
     "editor.tabSize": 2,
     "editor.mouseWheelZoom": true,
     "prettier.endOfLine": "lf",
-    "files.eol": "\n"
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
 }
